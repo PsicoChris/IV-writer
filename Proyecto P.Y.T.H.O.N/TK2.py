@@ -154,13 +154,13 @@ main_techs_entry = tkinter.Entry(job_info_frame)
 main_techs_entry.grid(row= 9, column=1)
 
 
-other_techs_label = tkinter.Label(job_info_frame,text="Labores Actuales")
+other_techs_label = tkinter.Label(job_info_frame,text="Otras Tecnologías")
 other_techs_label.grid(row= 8, column=2)
 other_techs_entry = tkinter.Entry(job_info_frame)
 other_techs_entry.grid(row= 9, column=2)
 
 
-company_to_apply_label = tkinter.Label(job_info_frame,text="Labores Actuales")
+company_to_apply_label = tkinter.Label(job_info_frame,text="Compañía a Aplicar")
 company_to_apply_label.grid(row= 10, column=1)
 company_to_apply_entry = tkinter.Entry(job_info_frame)
 company_to_apply_entry.grid(row= 11, column=1)
